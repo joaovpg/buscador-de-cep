@@ -1,0 +1,20 @@
+.cep__botao {
+    background-image: linear-gradient(var(--azul-claro), var(--azul));
+    border: solid 1px var(--azul);
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    transition: all .1s ease-in-out;
+    width: 20%;
+}
+
+.cep__botao:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .cep__botao {
+        border-radius: 0 5px 0 0;
+    }
+
+}

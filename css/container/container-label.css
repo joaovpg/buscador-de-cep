@@ -1,0 +1,13 @@
+.container__label {
+    background-color: var(--branco);
+    color: var(--azul);
+    font-family: 'Noto Sans JP', sans-serif;    
+    font-size: 0.7rem;
+    font-weight: bold;
+    left: 10px;
+    top: -8px;
+    position: absolute;
+    padding: 0.2rem;
+}
+
+

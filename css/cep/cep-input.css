@@ -1,0 +1,11 @@
+.cep__input {  
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .cep__input {  
+        border-radius: 5px 0 0 0;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax com JS Puro</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cores.css">
+    <link rel="stylesheet" href="css/formulario/formulario.css">
+    <link rel="stylesheet" href="css/formulario/formulario-conteudo.css">
+    <link rel="stylesheet" href="css/formulario/formulario-titulo.css">
+    <link rel="stylesheet" href="css/rows/row.css">
+    <link rel="stylesheet" href="css/container/container.css">
+    <link rel="stylesheet" href="css/container/container-label.css">
+    <link rel="stylesheet" href="css/container/container-input.css">
+    <link rel="stylesheet" href="css/cep/cep.css">
+    <link rel="stylesheet" href="css/cep/cep-titulo.css">
+    <link rel="stylesheet" href="css/cep/cep-input.css">
+    <link rel="stylesheet" href="css/cep/cep-botao.css">
+    <link rel="stylesheet" href="css/cep/cep-imagem.css">
+    <link rel="stylesheet" href="css/endereco/endereco.css">
+    <link rel="stylesheet" href="css/endereco/endereco-titulo.css">
+    <link rel="stylesheet" href="css/endereco/endereco-input.css">
+    <link rel="stylesheet" href="css/numero/numero.css">
+    <link rel="stylesheet" href="css/bairro/bairro.css">
+    <link rel="stylesheet" href="css/complemento/complemento.css">
+    <link rel="stylesheet" href="css/cidade/cidade.css">
+    <link rel="stylesheet" href="css/estado/estado.css">
+    <link rel="stylesheet" href="css/estado/estado-input.css">
+    <link rel="stylesheet" href="css/teste.css">
+</head>
+    <body>
+        <form class="formulario formulario__row">
+            <div class="formulario__conteudo">
+                <div class="formulario__titulo">Buscando CEP com requisição JAX</div>
+                <div class="row">
+                    <div class="container cep">
+                        <label class="container__label cep__titulo" for="">Cep</label>
+                        <input class="container__input cep__input" name="cep" type="text">
+                        <button class="cep__botao" type="button" onclick="buscaCep()">
+                            <img class="cep__imagem" src="img/globo.svg" alt="Ícone de um globo">
+                        </button>
+                    </div>
+                    <div class="container numero">
+                        <label class="container__label">Número</label>
+                        <input class="container__input" name="numero" type="text">
+                    </div>
+                </div>
+                <div class="container endereco">
+                    <label class="container__label endereco__titulo">Endereço</label>
+                    <input class="container__input endereco__input" name="endereco" type="text">
+                </div>
+                <div class="container bairro">
+                    <label class="container__label">Bairro</label>
+                    <input class="container__input" name="bairro" type="text">
+                </div>
+                <div class="container complemento">
+                    <label class="container__label">Complemento</label>
+                    <input class="container__input" name="complemento" type="text">
+                </div>
+                <div class="container cidade">
+                    <label class="container__label">Cidade</label>
+                    <input class="container__input" name="cidade" type="text">
+                </div>
+                <div class="container estado">
+                    <label class="container__label">Estado</label>
+                    <input class="container__input estado__input" name="estado" type="text">
+                </div>
+            </div>    
+        </form>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+.cep__imagem {
+    width: 20px;
+    filter: invert(100%) sepia(0%) saturate(2476%) hue-rotate(86deg) brightness(100%) contrast(100%);
+}

@@ -1,0 +1,10 @@
+.numero {
+    width: calc(50% - 1rem);
+}
+
+@media screen and (max-width: 768px){
+    .numero {
+        width: 100%;
+        margin-right: 0;
+    }
+}

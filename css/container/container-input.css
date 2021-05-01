@@ -1,0 +1,20 @@
+.container__input {
+    border: solid 1px var(--azul);
+    border-radius: 5px;
+    background-color: var(--branco);
+    font-family: 'Noto Sans JP', sans-serif;   
+    font-size: 1rem;
+    outline: 0;
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+}
+
+.container__input:focus {
+    border-color: var(--amarelo);
+}
+
+@media screen and (max-width: 768px) {
+    .container__input {
+        border-radius: 0;
+    }
+}
